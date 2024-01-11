@@ -1,0 +1,67 @@
+slice_name: Customers Table
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 22__table
+  viz_type: table
+  granularity_sqla: Original Date
+  time_grain_sqla: P1Y
+  time_range: No filter
+  query_mode: aggregate
+  groupby:
+  - Customer
+  metrics:
+  - expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: Payment
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 1550
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NULLABLE(FLOAT64)
+      type_generic: null
+      verbose_name: null
+      warning_markdown: null
+    aggregate: SUM
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: SUM(Payment)
+    optionName: metric_fal2whnwlc_0rdr3kjlwjq
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters: []
+  timeseries_limit_metric:
+    expressionType: SQL
+    sqlExpression: sum(Payment)
+    column: null
+    aggregate: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: sum(Payment)
+    optionName: metric_mouws61s96_d0a63gjcujf
+  order_by_cols: []
+  row_limit: 10
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  extra_form_data: {}
+  dashboards: []
+query_context: '{"datasource":{"id":22,"type":"table"},"force":false,"queries":[{"time_range":"No
+  filter","granularity":"Original Date","filters":[],"extras":{"time_grain_sqla":"P1Y","having":"","where":""},"applied_time_extras":{},"columns":["Customer"],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Payment","description":null,"expression":null,"filterable":true,"groupby":true,"id":1550,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NULLABLE(FLOAT64)","type_generic":null,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(Payment)","optionName":"metric_fal2whnwlc_0rdr3kjlwjq"}],"orderby":[[{"expressionType":"SQL","sqlExpression":"sum(Payment)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"sum(Payment)","optionName":"metric_mouws61s96_d0a63gjcujf"},false]],"annotation_layers":[],"row_limit":10,"series_limit":0,"series_limit_metric":{"expressionType":"SQL","sqlExpression":"sum(Payment)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"sum(Payment)","optionName":"metric_mouws61s96_d0a63gjcujf"},"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"22__table","viz_type":"table","granularity_sqla":"Original
+  Date","time_grain_sqla":"P1Y","time_range":"No filter","query_mode":"aggregate","groupby":["Customer"],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"Payment","description":null,"expression":null,"filterable":true,"groupby":true,"id":1550,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NULLABLE(FLOAT64)","type_generic":null,"verbose_name":null,"warning_markdown":null},"aggregate":"SUM","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"SUM(Payment)","optionName":"metric_fal2whnwlc_0rdr3kjlwjq"}],"all_columns":[],"percent_metrics":[],"adhoc_filters":[],"timeseries_limit_metric":{"expressionType":"SQL","sqlExpression":"sum(Payment)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"sum(Payment)","optionName":"metric_mouws61s96_d0a63gjcujf"},"order_by_cols":[],"row_limit":10,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","show_cell_bars":true,"color_pn":true,"extra_form_data":{},"dashboards":[],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: b9a93abc-e795-48b3-98d8-cf37bdb8aaca
+version: 1.0.0
+dataset_uuid: adb2bec8-739f-48de-bcf4-ad88495b10ad
